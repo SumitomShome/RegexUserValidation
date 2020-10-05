@@ -7,7 +7,9 @@ namespace RegexUserValidation
         {
             RegexValidation regex = new RegexValidation();
             bool validResult = regex.ValidateFirstName();
-            Console.WriteLine(validResult);
+            bool validLastNameResult = regex.ValidateLastName();
+            Console.WriteLine("First name: " + validResult);
+            Console.WriteLine("Last name: " + validLastNameResult);
             Console.ReadKey();
         }
     }
