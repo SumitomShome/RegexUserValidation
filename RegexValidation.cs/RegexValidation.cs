@@ -6,7 +6,7 @@ namespace RegexUserValidation
 {
     public class RegexValidation
     {
-        public static string FIRST_NAME_REGEX = "^[A-Z]{1}[A-Za-z]{3,}";
+        public static string FIRST_NAME_REGEX = "^[A-Z]{1}[A-Za-z]{3,}$";
         public bool ValidateFirstName()
         {
             Console.WriteLine("Enter first name: ");
