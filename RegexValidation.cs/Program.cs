@@ -10,6 +10,7 @@ namespace RegexUserValidation
             bool validLastNameResult = regex.ValidateLastName();
             Console.WriteLine("First name: " + validResult);
             Console.WriteLine("Last name: " + validLastNameResult);
+            Console.WriteLine("Email: " + validEmail);
             Console.ReadKey();
         }
     }
